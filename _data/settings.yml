@@ -1,0 +1,13 @@
+menu:
+- {name: 'Hardware', url: '/hardware'}
+- {name: 'Software', url: '/software'}
+- {name: 'Extension', url: '/extension'}
+- {name: 'Support', url: '/support'}
+- {name: 'Github', url: '/github'}
+
+social:
+- {icon: 'github', link: 'https://github.com/callontv'}
+- {icon: 'twitter', link: 'https://twitter.com/callontv'}
+- {icon: 'instagram', link: 'https://instagram.com/callontv_com'}
+- {icon: 'linkedin', link: 'https://linkedin.com/in/callontv'}
+
