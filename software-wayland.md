@@ -54,7 +54,7 @@ pi ALL=(ALL) NOPASSWD:SETENV: /usr/bin/wtype
 Install required python modules:
 
 ```
-pip3 install selenium pychrome
+pip3 install pychrome
 ```
 
 Grant access of the pi user to cec hdmi port in /etc/udev/rules.d/50-udev-default.rules
