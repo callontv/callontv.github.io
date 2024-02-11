@@ -3,6 +3,8 @@ layout: content
 title: "Software"
 ---
 
+Right click on the speaker icon in the top right tool bar, then choose HDMI from the list of the available audio devices. You can do the same on the microphone icon to set the default mic. 
+
 You may need to enable HDMI-CEC in the settings of your TV e.g. on LG TVs.
 
 Install cec-utils and wtype
