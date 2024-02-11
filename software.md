@@ -2,6 +2,7 @@
 layout: content
 title: "Software"
 ---
+Instructions for the old bullseye can be found [here](/software-bullseye). 
 
 Right click on the speaker icon in the top right tool bar, then choose HDMI from the list of the available audio devices. You can do the same on the microphone icon to set the default mic. 
 
