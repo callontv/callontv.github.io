@@ -2,9 +2,12 @@
 layout: content
 title: "Software"
 ---
-Disabe hdmi_cec_init to avoid the TV turning on when the Pi is restarted. Enable overclocking on the pi.
+Disable analog audio port on Raspberrypi, and also disabe hdmi_cec_init to avoid the TV turning on when the Pi is restarted. Enable overclocking on the pi.
 
 ```
+# Disable audio 
+dtparam=audio=off
+
 # Fix HDMI Audio and set HDMI to always on
 # https://mlagerberg.gitbooks.io/raspberry-pi/content/3.4-HDMI-output.html
 hdmi_force_hotplug=1
