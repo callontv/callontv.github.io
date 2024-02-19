@@ -54,17 +54,12 @@ scan)
 ;;
 esac
 ```
-
-grant pi user to run the following commands in `/etc/sudoers.d/pi`
-
-```
-pi ALL=(ALL) NOPASSWD:SETENV: /usr/bin/wtype
-```
-
 Install required python modules:
 
 ```
-pip3 install pychrome
+# create python virtualenv
+python -m venv /home/pi/python
+/home/pi/python/bin/pip install pychrome requests
 ```
 
 Grant access of the pi user to cec hdmi port in /etc/udev/rules.d/50-udev-default.rules
