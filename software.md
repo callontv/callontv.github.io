@@ -4,11 +4,8 @@ title: "Software"
 ---
 Instructions for the old bullseye can be found [here](/software-bullseye). 
 
-Disable analog audio in /boot/firmware/config.txt file since we only use hdmi on the tv for sound output:
-```
-# Disable audio
-dtparam=audio=off
-```
+Righ click on the sound icon, click Device Profiles, set Audio Jack to `Off`. This will cause wayland to use HDMI when connected to output audio
+
 You may use `sudo raspi-config` and set audio driver from `Pipewire` to `PulseAudio` in `Advanced Options -> Audio Config` if speakers don't work for you properly.
 
 Right click on the speaker icon in the top right tool bar, then choose HDMI from the list of the available audio devices. You can do the same on the microphone icon to set the default mic. 
