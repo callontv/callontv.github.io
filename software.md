@@ -12,6 +12,8 @@ You may use `sudo raspi-config` and set audio driver from `Pipewire` to `PulseAu
 
 Right click on the speaker icon in the top right tool bar, then choose HDMI from the list of the available audio devices. You can do the same on the microphone icon to set the default mic. 
 
+Set default locale to `en_US.utf-8` by running `sudo raspi-config` in `Localisation Options` section.
+
 You may need to enable HDMI-CEC in the settings of your TV e.g. on LG TVs.
 
 Install cec-utils and wtype
