@@ -4,6 +4,8 @@ title: "Software"
 ---
 Instructions for the old bullseye can be found [here](/software-bullseye). 
 
+Kiosk mode instructions for Chromium on Raspberry Pi is described [here](https://www.raspberrypi.com/tutorials/how-to-use-a-raspberry-pi-in-kiosk-mode/).
+
 Righ click on the sound icon, click Device Profiles, set Audio Jack to `Off`. This will cause wayland to use HDMI when connected to output audio
 
 You may use `sudo raspi-config` and set audio driver from `Pipewire` to `PulseAudio` in `Advanced Options -> Audio Config` if speakers don't work for you properly.
