@@ -14,6 +14,12 @@ Right click on the speaker icon in the top right tool bar, then choose HDMI from
 
 Set default locale to `en_US.utf-8` by running `sudo raspi-config` in `Localisation Options` section.
 
+Make your HDMI display always connected, this will prevent [labWC from crashing](https://forums.raspberrypi.com/viewtopic.php?t=328439#p1969811). Add the following to the beginning of the line `/boot/firmware/cmdline.txt`:
+
+```
+video=HDMI-A-1:1920x1200@60D
+```
+
 You may need to enable HDMI-CEC in the settings of your TV e.g. on LG TVs.
 
 Install cec-utils and wtype
