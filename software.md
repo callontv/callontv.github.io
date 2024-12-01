@@ -20,6 +20,11 @@ Make your HDMI display always connected, this will prevent [labWC from crashing]
 video=HDMI-A-1:1920x1200@60D
 ```
 
+Disable AV audio jack, this will prevent audio to go to AV jack rather than HDMI. Edit `/boot/firmware/config.txt` and update the following parameter:
+```
+dtparam=audio=off
+```
+
 You may need to enable HDMI-CEC in the settings of your TV e.g. on LG TVs.
 
 Install cec-utils and wtype
