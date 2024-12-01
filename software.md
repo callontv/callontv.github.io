@@ -20,7 +20,7 @@ Make your HDMI display always connected, this will prevent [labWC from crashing]
 video=HDMI-A-1:1920x1200@60D
 ```
 
-Disable AV audio jack, this will prevent audio to go to AV jack rather than HDMI. Edit `/boot/firmware/config.txt` and update the following parameter:
+Disable AV audio jack, this will prevent audio to go to AV jack (snd_bcm2835) rather than HDMI. Edit `/boot/firmware/config.txt` and [update the following parameter](https://www.raspberrypi.com/documentation/computers/config_txt.html#file-format):
 ```
 dtparam=audio=off
 ```
