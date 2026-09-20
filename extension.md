@@ -51,13 +51,13 @@ The **CallOnTV Chrome Extension** automates meeting interactions inside the Chro
 Follow these steps to install the extension on your Raspberry Pi's Chromium browser:
 
 ### Step 1: Download or Clone the Extension
-Clone or download the extension files into a dedicated folder on your Raspberry Pi:
+Clone or download the extension from our [GitHub repository](https://github.com/callontv/googlemeet-extension) into a folder on your Raspberry Pi:
 
 ```bash
 mkdir -p ~/callontv-extension
 cd ~/callontv-extension
-# Clone the extension repository or download the unpacked folder
-git clone https://github.com/callontv/callontv-extension.git .
+# Clone the extension repository
+git clone https://github.com/callontv/googlemeet-extension.git .
 ```
 
 ### Step 2: Open Chromium Extensions

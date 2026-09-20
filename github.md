@@ -37,7 +37,7 @@ CallOnTV is fully open-source and community-driven. All documentation, scripts, 
       Browser automation script and extension for hands-free meeting joining and admission on Chromium.
     </p>
     <div style="margin-top: 1rem;">
-      <a href="https://github.com/callontv" target="_blank" rel="noopener noreferrer" class="btn-cta-secondary" style="font-size: 0.85rem; padding: 0.4rem 0.85rem;">
+      <a href="https://github.com/callontv/googlemeet-extension" target="_blank" rel="noopener noreferrer" class="btn-cta-secondary" style="font-size: 0.85rem; padding: 0.4rem 0.85rem;">
         <i class="fab fa-github"></i> Repository &rarr;
       </a>
     </div>

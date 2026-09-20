@@ -8,11 +8,6 @@ description: "Complete setup guide for Raspberry Pi OS Bookworm with Wayland, HD
 
 This guide covers setting up **Raspberry Pi OS (Bookworm 64-bit with Wayland / labWC)**, automating your television with HDMI-CEC, configuring audio output, and launching Google Meet in kiosk mode.
 
-<div class="callout callout-info">
-  <div class="callout-title"><i class="fas fa-history"></i> Legacy OS Support</div>
-  <p>Running the older Debian Bullseye release? Refer to our <a href="{{ '/software-bullseye' | relative_url }}">Legacy Bullseye Setup Guide</a>.</p>
-</div>
-
 ---
 
 ## Step 1: Display & Kernel Configuration (Bookworm)
