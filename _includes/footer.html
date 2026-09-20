@@ -1,9 +1,16 @@
-<footer class="pt-5 my-5 text-muted border-top">
-  <div class="row">
-    <div class="col-md-6 text-end social-media-icons">
-      {% for item in site.data.settings.social %}
-        <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
-      {% endfor %}
+<footer class="site-footer">
+  <div>
+    <strong>CallOnTV</strong> — Open Source Living Room Video Calling Portal.
+    <div style="font-size: 0.8rem; color: var(--text-dim); margin-top: 0.25rem;">
+      Built with Raspberry Pi, HDMI-CEC Automation, and Google Meet.
     </div>
+  </div>
+
+  <div class="footer-social-links">
+    {% for item in site.data.settings.social %}
+      <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer" aria-label="{{ item.icon }}">
+        <i class="fab fa-{{ item.icon }}"></i>
+      </a>
+    {% endfor %}
   </div>
 </footer>

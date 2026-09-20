@@ -1,8 +1,29 @@
 ---
 layout: content
-title: "Support"
+title: "Support & Community"
+description: "Community support, documentation resources, and contact information for the CallOnTV project."
 ---
 
-Complete instructions necessary for running a CallOnTV instance are readily available on our website.
+# Support & Community
 
-For additional support, we offer assistance in configuring and running your RemoSim service at a reasonable cost. If you're interested, please reach out to us by sending an email to info@callontv.com.
+CallOnTV is an open-source project created to make high-quality, hands-free living room video calls accessible to everyone.
+
+---
+
+## Getting Help
+
+### 1. Documentation & Guides
+Before reaching out, check our detailed guides covering hardware selection, software setup, and television compatibility:
+- [Hardware Guide & Tested TV Matrix]({{ '/hardware' | relative_url }})
+- [Software Installation & HDMI-CEC Setup]({{ '/software' | relative_url }})
+- [CallOnTV Chrome Extension]({{ '/extension' | relative_url }})
+
+### 2. GitHub Issues & Discussions
+If you encounter a bug, have a feature suggestion, or want to contribute tested television models to our compatibility database:
+- Report bugs or request features: [CallOnTV GitHub Issues](https://github.com/callontv/callontv.github.io/issues)
+- Community discussions: [CallOnTV Discussions](https://github.com/callontv/callontv.github.io/discussions)
+
+### 3. Direct Contact & Commercial Assistance
+For general inquiries or assistance with customized hardware setups:
+- **Email**: [info@callontv.com](mailto:info@callontv.com)
+- **Twitter / X**: [@callontv](https://twitter.com/callontv)

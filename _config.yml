@@ -1,4 +1,9 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "CallOnTV" # the name of your site, e.g. ACME Corp.
-description: "Upgrade your Video Calls to the next level"
+url: "https://www.callontv.com"
+baseurl: ""
+title: "CallOnTV"
+tagline: "Turn Your TV into a Hands-Free Video Calling Station"
+description: "Open-source living room video calls powered by Raspberry Pi, HDMI-CEC automation, and Google Meet."
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
